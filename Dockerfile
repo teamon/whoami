@@ -1,3 +1,3 @@
 FROM emilevauge/whoami
 
-CMD ["noop"]
+CMD ["--port", "$PORT"]
